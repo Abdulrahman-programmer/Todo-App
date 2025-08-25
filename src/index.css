@@ -1,0 +1,9 @@
+@import "tailwindcss";
+body{
+  background: linear-gradient(to right , rgba(144, 22, 220, 0.815) , rgba(235, 53, 8, 0.828));
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}

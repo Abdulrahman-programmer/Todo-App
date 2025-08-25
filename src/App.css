@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme{
+  --color-blur : rgba(255,255,255,0.2)
+}
+
+@layer components{
+  .btn{
+    @apply bg-[#FAA18F] p-1 rounded-md ml-1.5 text-white hover:bg-[#F87C63] hover:translate-y-[-2px]
+  }
+  .ip{
+    @apply bg-white rounded-md w-[15em] h-8 outline-0 p-2
+  }
+  .listItem{
+    @apply bg-blur mt-2.5 p-2.5 flex place-content-between align-middle rounded-2xl text-white 
+  }
+}
